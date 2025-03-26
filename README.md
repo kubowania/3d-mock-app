@@ -1,12 +1,12 @@
-# React + Vite
+# 🛑 1hr to Build an Authenticated 3D Mockup App | React.js Three.js Clerk
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 1. Sign up to clerk [here](https://go.clerk.com/raMO3a2).
 
-Currently, two official plugins are available:
+### 2. Add a `.env` file to the root of your project.
+```
+VITE_CLERK_PUBLISHABLE_KEY={API_KEY}
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 3. Run the project with `npm run dev`
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Watch the full tutorial on how to create this project here: https://www.youtube.com/watch?v=n-6MmUTS0ck
