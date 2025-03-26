@@ -1,0 +1,150 @@
+* {
+    color: rgb(240, 240, 240);
+    font-family: Verdana, sans-serif;
+}
+
+html, #root {
+    background-color: rgb(19, 19, 22);
+    width: 100vw;
+}
+
+body {
+    background-color: rgb(19, 19, 22);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: rgb(19, 19, 22);
+    border-bottom: 1px solid rgb(60, 60, 60);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+td {
+    font-size: 12px;
+}
+
+.info-detail {
+    background-color: rgb(31, 31, 35);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(60, 60, 60);
+    width: 400px;
+}
+
+.user-detail-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+.user-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    border-spacing: 5px;
+    width: 100%;
+}
+
+td {
+    background-color: rgb(49, 49, 50);
+    padding: 6px 10px;
+    border-radius: 10px;
+}
+
+.signin {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 600px;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+canvas {
+    position: absolute;
+}
+
+.controls {
+    padding: 0 30px;
+    margin: 20px;
+    border-radius: 20px;
+    border: solid 1px rgb(60, 60, 60);
+    background-color: rgb(31, 31, 35);
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-option {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    overflow-y: hidden;
+}
+
+.control-option p {
+    padding-right: 10px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
